@@ -10,7 +10,8 @@ Predict whether a loan application will be approved or rejected based on basic a
 ## How to Run
 1. Install dependencies:
 pip install -r requirements.txt
-
+BACKEND:https://loanapprovalprediction-6l8q.onrender.com
+FRONTEND:https://loanapprovalprediction-fcwitgsnwqfupfipzfq73m.streamlit.app/
 
 Dataset
 

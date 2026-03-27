@@ -9,7 +9,7 @@ loan_amount = st.slider("Loan Amount ($)", 1000, 50000, 15000)
 loan_term = st.slider("Loan Term (months)", 6, 60, 24)
 
 if st.button("Predict"):
-    url = "http://127.0.0.1:5000/predict"  # use your deployed URL if hosted
+    url = "https://loanapprovalprediction-6l8q.onrender.com/predict"  # use your deployed URL if hosted
     
     data = {
         "income": income,
